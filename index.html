@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>MoooJL-性感IT男</title>
+    <link rel="shortcut icon" href="assets/images/爱宠02.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+             document.getElementsByClassName('avatar')[0].style.display = 'block';
+             document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <!-- <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style> -->
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <!-- <section class="portrait"> -->
+				<section >
+                    <!-- <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
+                    <!-- 头像照片 -->
+                    <img style="width: 50%;height: 50%;border-radius: 200px;" class="avatar" src="assets/images/MoooJL.jpg" onload="loading()">
+                </section>
+
+                <h1 class="name">MoooJL</h1>
+                <h4 class="info-job">IT / 石家庄</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>MoooJL / 男 / 21岁</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-4</span>
+                    </li>
+                    <li>
+                        <label>计算机水平</label>
+                        <span>软考中级</span>
+                    </li>
+					<li>
+					    <label>爱好</label>
+					    <span>篮球·乒乓球</span>
+					</li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:18203237367" target="_blank">182-0323-7367</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="mailto:ze.zh@hotmail.com" target="_blank">1576018261@qq.com</a>
+                    </li>
+                    <li>
+                        <label>个人博客</label>
+                        <a href="https://www.cnblogs.com/mooojl/" target="_blank">MoooJL</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/MoooJL/" target="_blank">github.com/MoooJL</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>HTML</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CSS</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>JavaScript</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Java</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Python</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Android</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+					<li>
+					    <label>SpringBoot</label>
+					    <progress value="50" max="100"></progress>
+					</li>
+                </ul>
+            </section>
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                <hr/>
+                <img src="assets/images/二维码.png" style="height: 60%;width: 60%;margin-left: 50px;" alt="">
+            </section>
+
+            <!-- 技术栈 -->
+            <div class="stack info-unit">
+                    <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <label>前端</label>
+                            <span>HTML、jQuery、Bootstrap、Layui</span>
+                        </li>
+                        <li>
+                            <label>后端</label>
+                            <span>MySQL、Java、Python</span>
+                        </li>
+                        <li>
+                            <label>框架</label>
+                            <span>SSM、SpringBoot</span>
+                        </li>
+						<li>
+						    <label>其他</label>
+						    <span>Linux系统</span>
+						</li>
+                    </ul>
+                </div>
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>石家庄铁道大学 - 软件工程专业（本科在读）</span>
+                            <time>2018.9-至今</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>40/110</mark>期间获得疫情数据可视化平台软著，获奖学金1次。</p>
+                    </li>
+                </ul>
+            </section>
+			
+			<!-- 个人简介 -->
+			<section class="edu info-unit">
+			    <h2>
+			        <i class="fa fa-user-circle-o" aria-hidden="true"></i>个人简介</h2>
+			    <hr/>
+			    <ul>
+			        <li>
+			            <h3>
+			                <span>我是一个在读大学生，目前就读于石家庄铁道大学软件工程专业。
+							时间飞逝，一转眼马上就大四了，即将毕业，以前的我对于自己的未来，还略显迷茫，纠结，
+							但是面对现实，丰富自己的知识面以及技能，在毕业寻求一份好的工作才是我该做的事情。
+							目前可以较为熟练地完成Javaweb的开发，人工智能方面技能略显不足，
+							在平时的学习中追求完美，善于钻研，并且喜欢编程，在未来的实习工作中，
+							全栈工程师是我的目标，让编程改变世界是我的理想。
+							除此之外，在博客园中我是一个很活跃的用户，我很开心分享我的博客。<a href="https://www.cnblogs.com/mooojl/" target="_blank">
+                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li></span>
+			            </h3>
+			         
+			        </li>
+			    </ul>
+			</section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>比赛经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[经历1]网页设计大赛</span>
+                            <time>2020.10</time>
+                        </h3>
+                    </li>
+					<li>
+					    <h3>
+					        <span>[经历2]程序设计大赛</span>
+					        <time>2020.12</time>
+					    </h3>
+					</li>
+					<li>
+					    <h3>
+					        <span>[经历3]中国大学生服务外包——创新创业大赛</span>
+					        <time>2021.04</time>
+					    </h3>
+					</li>
+					<li>
+					    <h3>
+					        <span>[经历4]中国计算机设计大赛</span>
+					        <time>2021.05</time>
+					    </h3>
+					</li>
+					<li>
+					    <h3>
+					        <span>[经历5]中国软件杯</span>
+					        <time>2021.06</time>
+					    </h3>
+					</li>
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>个人项目</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]面向中小型桥梁的健康监测与智能管养平台</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2021.2-2021.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Flask+MySQL+JsMind+BIM可视化+ECharts</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现桥梁的健康监测与智能管养
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]同 5 位同专业同学一起
+                                <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]完成从
+                                <mark>“调研-设计-实现-文档”</mark>等工作，主要负责系统原型、功能框架及数据提交流程、元数据及源数据的管理与共享方案的设计以及系统开发等工作
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品最终完成，应用到实际工程。 </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2]疫情数据可视化</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.7-2020.12</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：HTML5+jQuery+ECharts+MySQL+WordCloud</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现疫情数据的多形式化可视化展示、数据统计及分析
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 3 位同学
+                                <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]分析项目需求，清洗并整理相关数据(每天爬取疫情数据)，并用
+                                <mark>WordCloud</mark> 和
+                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品取得软著专利
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3]KeepRunningAPP</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.3-2020.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Android+百度API+SQL</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现实时运动数据记录以及运动轨迹定位
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 2 位同学
+                                <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]分析项目需求，实现定时等功能
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品取得“东软杯”三等奖
+                            </li>
+                        </ul>
+                    </li>
+					<li>
+					    <h3>
+					        <span>[项目4]云端智能相册</span>
+					        <span class="link">
+					            <a href="#" target="_blank">Demo</a>
+					        </span>
+					        <time>2021.3-2021.6</time>
+					    </h3>
+					    <ul class="info-content">
+					        <li>技术栈：Flask+百度API+MySQL</li>
+					        <li>
+					            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+					            [目标]实现云端照片的在自动分类与管理
+					            <br/>
+					            <i class="fa fa-users" aria-hidden="true"></i>
+					            [团队]与 2 位同学
+					            <br/>
+					            <i class="fa fa-bars" aria-hidden="true"></i>
+					            [贡献]分析项目需求，实现图像分类，数据库设计，前端设计等功能
+					            <br/>
+					            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+					            [效果]作品正申报“第十届软件杯”A5-云端智能相册
+					        </li>
+					    </ul>
+					</li>
+
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+                <hr/>
+                <p>行到水穷处，坐看云起时！编程之路是坎坷的、漫长的，但是既然选择了这条路，并且热爱编程，就应该保持良好的心态，并且保持一颗好奇的心，去发现新鲜事物。最后，
+                    <span class="mark-txt">“多静多思考，反省不张扬”</span>是我给自己总结的“十字箴言”，鞭策自己做人既不能以己度人，也不以人观己，要脚踏实地做事，坚持自己的梦想和本心。</p>
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>© 2021 MoooJL.文档最后更新时间为
+            <time>2021年06月22日</time>.</p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://gitee.com/MoooJL/" target="_blank">源代码</a>
+            </li>
+            <li>
+                <a href="https://www.cnblogs.com/mooojl/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
